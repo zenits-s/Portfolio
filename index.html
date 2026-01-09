@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Sachin</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+   
+
+  </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+  <nav>
+    <div class="logo">sac<span style="color: rgb(0, 75, 214);">hi</span>n</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <div></div><div></div><div></div>
+    </div>
+  </nav>
+
+    <button id="themeToggle" class="cv-btn" style="position:fixed;bottom:25px;right:25px;z-index:2000;">
+        🌙 Dark Mode
+    </button>
+
+
+    <!-- HERO -->
+
+  <section id="home" class="fade-in">
+    <div class="text-content">
+      <h1><span class="typing"></span></h1>
+      <p>I am a UI/Graphic Designer and web developer who creates clean, modern websites.<br>Scroll down to learn more about me!</p>
+      <a href="https://drive.google.com/file/d/1arKs3hvCv2KKC-3GVtiQSfoukmB_xalc/view?usp=drive_link" target="_blank" download>
+        <button class="cv-btn">Download CV</button>
+      </a>
+    </div>
+    <div class="profile-container">
+
+    </div>
+    <div class="fade-in"></div>
+        <img src="me.jpeg" alt="Profile" class="profile-img" />
+    </div>
+
+  </section>
+
+
+    <!-- ABOUT -->
+
+  <section id="about" class="fade-in">
+    <h2>About Me</h2>
+    <p>I'm a passionate designer and programmer who loves working with modern web technologies.  
+      My goal is to build websites that are functional, user-friendly, and visually engaging.  
+      When I'm not coding, you'll find me designing graphics or dreaming up new creative ideas.</p>
+  </section>
+
+
+    <!-- SKILLS SECTION -->
+
+        <section class="fade-in">
+            <h2>Skills</h2>
+
+
+    <!-- Programming Languages -->
+
+            <div class="skills-category">
+                <h3>💻 Programming Languages</h3>
+                <div class="skills-grid">
+                <div class="skill bright-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><span>HTML</span></div>
+                <div class="skill bright-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><span>CSS</span></div>
+                <div class="skill bright-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><span>JavaScript</span></div>
+                <div class="skill bright-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png" alt="c++"><span>C++</span></div>
+                <div class="skill bright-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><span>MySQL</span></div>
+                </div>
+            </div>
+
+
+    <!-- Graphic Design -->
+
+            <div class="skills-category">
+                <h3>🎨 Graphic Design</h3>
+                <div class="skills-grid">
+                <div class="skill bright-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg" alt="Illustrator"><span>Adobe After Effects</span></div>
+                <div class="skill bright-bg"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg" alt="Photoshop"><span>Adobe Photoshop</span></div>
+                <div class="skill bright-bg"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/canva.svg" alt="Canva"><span>Canva</span></div>
+                <div class="skill bright-bg"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"><span>Figma</span></div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- PROJECTS -->
+
+        <section id="projects" class="fade-in">
+          <h2>Projects</h2>
+          <div class="project-grid">
+            <div class="project-card">
+              <h3> Personal Portfolio</h3>
+              <p>A clean, responsive portfolio showcasing skills and projects.</p>
+            </div>
+            <div class="project-card">
+              <a href="https://www.figma.com/proto/YOUR_LINK_HERE" target="_blank" class="project-link">
+              <h3>NFTS TRADING FRONT END DESIGN</h3>
+              <p>A visually engaging design project created in Figma, showcasing modern UI/UX principles, balanced color schemes, and a focus on
+                user-friendly interaction.</p>
+              </a>
+              </div>
+            <div class="project-card">
+              <a href="https://netfix-clone-second.netlify.app/" target="_blank" class="project-link">
+              <h3>NETFLIX CLONE</h3>
+             <p>The Netflix Clone is a simple web project built using HTML and CSS that replicates the homepage design of Netflix.</p>
+            </a>
+            </div>
+          </div>
+        </section>
+
+
+    <!-- CONTACT -->
+
+  <section id="contact" class="fade-in">
+    <h2>Contact</h2>
+    <p>Let’s collaborate or discuss a project! Fill out the form below 👇</p>
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" onsubmit="event.preventDefault(); alert('Message Sent!');">
+      <input type="hidden" name="acsess_key" value="a1c35466-cb6f-4319-b796-4e1fe46c87ac">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/sachin-dogra-346b13333?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/sachin._.dogra?igsh=MW1na2VmMTMxc3ptaQ==" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="ss9634068530@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer>© 2025 Sachin. All rights reserved.</footer>
+
+
+    <!-- Typing Animation -->
+
+  <script>
+    const textArray = ["Hello, I'm Sachin", "I'm a UI/Graphic Designer", "I build modern websites"];
+    const typingElement = document.querySelector(".typing");
+    let textIndex = 0, charIndex = 0;
+
+    function typeText() {
+      if (charIndex < textArray[textIndex].length) {
+        typingElement.textContent += textArray[textIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(typeText, 100);
+      } else setTimeout(eraseText, 1500);
+    }
+
+    function eraseText() {
+      if (charIndex > 0) {
+        typingElement.textContent = textArray[textIndex].substring(0, charIndex - 1);
+        charIndex--;
+        setTimeout(eraseText, 60);
+      } else {
+        textIndex = (textIndex + 1) % textArray.length;
+        setTimeout(typeText, 100);
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => setTimeout(typeText, 500));
+  </script>
+
+
+    <!-- Scroll Fade-in -->
+
+  <script>
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add("visible");
+      });
+    }, { threshold: 0.15 });
+    sections.forEach(sec => observer.observe(sec));
+  </script>
+
+
+    <!-- Hamburger -->
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('navLinks');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+  <script>
+      const themeToggle = document.getElementById("themeToggle");
+      const body = document.body;
+
+      // Load saved theme
+      if (localStorage.getItem("theme") === "dark") {
+          body.classList.add("dark-mode");
+          themeToggle.textContent = "☀️ Light Mode";
+      }
+
+      themeToggle.addEventListener("click", () => {
+          body.classList.toggle("dark-mode");
+          const darkModeEnabled = body.classList.contains("dark-mode");
+          themeToggle.textContent = darkModeEnabled ? "☀️ Light Mode" : "🌙 Dark Mode";
+          localStorage.setItem("theme", darkModeEnabled ? "dark" : "light");
+      });
+  </script>
+
+</body>
+</html>
